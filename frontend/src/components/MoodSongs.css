@@ -1,0 +1,49 @@
+.mood-songs {
+background: #181818;
+border-radius: 1rem;
+padding: 1.5rem;
+color: white;
+box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+.mood-songs h2 {
+margin-bottom: 1rem;
+}
+
+.song {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0.7rem 0;
+padding: 0.7rem;
+background: #222;
+border-radius: 0.6rem;
+transition: 0.25s;
+}
+
+.song:hover {
+background: #2d2d2d;
+}
+
+.song h3 {
+font-size: 1rem;
+}
+
+.song p {
+margin-top: 0.2rem;
+font-size: 0.8rem;
+color: #aaa;
+}
+
+.play-pause-button button {
+background: none;
+border: none;
+color: #aaa;
+font-size: 1.4rem;
+cursor: pointer;
+transition: 0.25s;
+}
+
+.play-pause-button button:hover {
+color: #fff;
+}

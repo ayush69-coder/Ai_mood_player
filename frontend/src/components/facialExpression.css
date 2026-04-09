@@ -1,0 +1,49 @@
+.mood-element {
+display: flex;
+justify-content: center;
+}
+
+.video-container {
+background: #181818;
+border-radius: 1rem;
+padding: 1.5rem;
+width: 100%;
+max-width: 380px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+.user-video-feed {
+width: 100%;
+border-radius: 1rem;
+border: 1px solid #444;
+object-fit: cover;
+}
+
+/* Button */
+.mood-element button {
+background: #6366ff;
+padding: 0.8rem 1.5rem;
+font-weight: 600;
+color: white;
+border-radius: 0.5rem;
+border: none;
+cursor: pointer;
+transition: 0.25s;
+}
+
+.mood-element button:hover {
+background: #5457e6;
+}
+
+/* Mood Output */
+.mood-output {
+background: #222;
+padding: 0.5rem 1rem;
+border-radius: 0.5rem;
+font-size: 1rem;
+text-align: center;
+}
